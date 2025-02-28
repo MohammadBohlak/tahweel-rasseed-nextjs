@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import Layout from "../component/Layout";
 import { useLoader } from "../../hook/useLoader";
 // export const url = "http://localhost:3000";
-export const url = "https://alaa-project.vercel.app"
+export const url = "https://tahweel-rasseed-nextjs.vercel.app"
 
 export const getPrice = (value) => value * 1.25;
 export const getCost = (value) => value * 1.043;
