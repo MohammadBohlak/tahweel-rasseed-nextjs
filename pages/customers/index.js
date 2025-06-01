@@ -202,11 +202,11 @@ export default function Customer() {
       <table className="table-customers" dir="rtl">
         <thead>
           <tr className="head-table">
-            <th>م</th>
+            <th>الرقم</th>
             <th>الاسم</th>
-            <th>قيمة الرصيد</th>
-            <th>السعر</th>
-            <th>التكلفة</th>
+          
+            <th>المبلغ</th>
+            
             <th></th>
           </tr>
         </thead>
@@ -224,9 +224,9 @@ export default function Customer() {
                   {index + 1}
                 </td>
                 <td>{e.name}</td>
-                <td>{e.value}</td>
+                
                 <td>{Number(e.price).toFixed(0)}</td>
-                <td>{Number(e.cost).toFixed(0)}</td>
+                 
                 <td style={{ height: "100%" }} className="actions-buttons">
                   <button
                     className="del-btn"
@@ -247,9 +247,9 @@ export default function Customer() {
           <tr>
             <th> </th>
             <th> عدد الزبائن</th>
-            <th> الرصيد</th>
+           
             <th> الديون</th>
-            <th> الكلفة</th>
+            
           </tr>
         </thead>
         <tbody>
@@ -261,9 +261,9 @@ export default function Customer() {
               المجموع
             </td>
             <td>{countCustomers}</td>
-            <td>{valueTotal}</td>
+            
             <td>{priceTotal}</td>
-            <td>{costTotal.toFixed(0)}</td>
+            
           </tr>
         </tbody>
       </table>
