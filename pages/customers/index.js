@@ -275,9 +275,9 @@ export default function Customer() {
         <thead>
           <tr className="head-table">
             <th>الاسم</th>
-            <th>قيمة الرصيد</th>
+
             <th>السعر</th>
-            <th>التكلفة</th>
+        
             <th>التاريخ</th>
             <th>الحدث المراد</th>
           </tr>
@@ -287,9 +287,9 @@ export default function Customer() {
             return (
               <tr key={e._id}>
                 <td>{e.name}</td>
-                <td>{e.value}</td>
+             
                 <td>{e.price.toFixed(0)}</td>
-                <td>{e.cost.toFixed(0)}</td>
+               
                 <td>{e.date}</td>
                 <td className="actions-buttons">
                   <button
