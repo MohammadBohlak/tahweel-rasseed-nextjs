@@ -162,14 +162,10 @@ export default function Customer() {
   return (
     <Layout visible={loader}>
       <div className="add-customer">
-        <div>
-          <Link href="/customers/addcustomer">
-            <button className="add-value-btn">إضافة زبون من حيث الرصيد</button>
-          </Link>
-        </div>
+        
         <div>
           <Link href="/customers/add-customer-money">
-            <button className="add-cost-btn">إضافة زبون من حيث المبلغ</button>
+            <button className="add-cost-btn">إضافة زبون </button>
           </Link>
         </div>
       </div>
